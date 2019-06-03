@@ -1,0 +1,19 @@
+{
+   "name": "red-build-init",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+      "start": "webpack"
+   },
+   "keywords": [],
+   "author": "Piotr Nowinski",
+   "license": "ISC",
+   "devDependencies": {
+      "superagent": "^5.0.5",
+      "tar": "^4.4.8",
+      "webpack": "^4.32.2",
+      "webpack-cli": "^3.3.2"
+   }
+}
